@@ -168,6 +168,10 @@ def send_message(to_user, access_token, city_name, weather, max_temperature, min
             "note_ch": {
                 "value": note_ch,
                 "color": get_color()
+            },
+            "sentance":{
+                "value":"努力！努力！",
+                "color": get_color()
             }
         }
     }
